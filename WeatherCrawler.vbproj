@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HtmlAgilityPack">
-      <HintPath>..\Weather\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <HintPath>..\..\..\Util\HAPExplorer\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -108,7 +108,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Datatable2TSV\Datatable2TSV.vbproj">
+    <ProjectReference Include="..\dotNet_Lib_DT2TSV\Datatable2TSV.vbproj">
       <Project>{9daa587f-bbaf-4533-a3e4-57d4b55e73ee}</Project>
       <Name>Datatable2TSV</Name>
     </ProjectReference>
